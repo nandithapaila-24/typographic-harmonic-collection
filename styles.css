@@ -1,0 +1,79 @@
+body{
+    background-color:#46caf2;
+    font-family: "Roboto Slab", serif;
+}
+
+/*This is my code for Project 7: Toggle. From here:*/
+
+body.dark-mode{
+    background-color:#40180B;
+    color:#46caf2;
+}
+body.dark-mode #film-strip img{
+    filter: invert(1);
+}
+
+
+h1.dark-mode{
+    color:#B4E61E;
+}
+
+/*To here*/
+
+
+h1{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-align:center;
+    color:#000000;
+    font-size:80px;
+    width:100%;
+}
+
+.secondarytext{
+    font-size: 18px;
+    text-align:center;
+    /*border:3px solid #ffffff;
+    padding:10px;
+    */
+    width:80%;
+    margin:0 auto;
+    margin-top:-40px;
+    color:#ffffff;
+
+}
+
+.project-tabs{
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    margin-top: 40px;
+    position:relative;
+    top:15px;
+}
+
+a:link, a:visited{
+    font-size: 16px;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+#keyboard-graphic{
+    display: block;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:-70px;
+}
+#keyboard-graphic img{
+    width:100%;
+    height:auto;
+}
+
+#film-strip{
+    display: block;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    margin-top: -300px;
+}
+
