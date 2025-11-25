@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Your Sign</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<div class="blank sign" id="create">
+        <h1>Make your own sign!</h1>
+        <button id="create-button">Create</button>
+</div>
+
+<div class="letter panel hide" id="first-selection">
+        <p>Select your first letter:</p>
+        <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="first-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="first-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="first-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="first-selection" value="./assets/u-is.png" checked />
+        </fieldset>
+
+        <button id="first-letter-button">next</button>
+    </div>
+
+
+    
+    <div class="letter panel hide" id="second-selection">
+        <p>Select your second letter:</p>
+         <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="second-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="second-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="second-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="second-selection" value="./assets/u-is.png" checked />
+        </fieldset>
+        <button id="second-letter-button">next</button>
+    </div>
+
+
+
+     <div class="letter panel hide" id="decorated-sign">
+        <div id="sign-collage">
+            <img id="u-l" src="./assets/u-is.png" alt="quilt square">
+            <img id="s-l" src="./assets/s-is.png" alt="quilt square">
+            <img id="h-l" src="./assets/h-is.png" alt="quilt square">
+            <img id="a-l" src="./assets/a-is.png" alt="quilt square">
+        </div>
+        <button id="back-button">start over</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
