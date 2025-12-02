@@ -1,79 +1,28 @@
-body{
-    background-color:#46caf2;
+p{
     font-family: "Roboto Slab", serif;
+    font-size:30px;
 }
 
-/*This is my code for Project 7: Toggle. From here:*/
-
-body.dark-mode{
-    background-color:#40180B;
-    color:#46caf2;
+img{
+    width:150px;
 }
-body.dark-mode #film-strip img{
-    filter: invert(1);
-}
-
-
-h1.dark-mode{
-    color:#B4E61E;
-}
-
-/*To here*/
-
 
 h1{
     font-family: "BBH Sans Hegarty", sans-serif;
+    font-size:60px;
     text-align:center;
-    color:#000000;
-    font-size:80px;
-    width:100%;
 }
 
-.secondarytext{
-    font-size: 18px;
-    text-align:center;
-    /*border:3px solid #ffffff;
-    padding:10px;
-    */
-    width:80%;
-    margin:0 auto;
-    margin-top:-40px;
-    color:#ffffff;
-
+#door-sign-template{
+    width:800px;
+    text-align: center;
 }
 
-.project-tabs{
-    display: flex;
-    gap:200px;
-    justify-content: center;
-    margin-top: 40px;
-    position:relative;
-    top:15px;
+.letterpanelhide{
+    display:none;
 }
 
-a:link, a:visited{
-    font-size: 16px;
-    text-decoration: none;
-    color:aliceblue;
-}
 
-#keyboard-graphic{
-    display: block;
-    width:100%;
-    text-align:center;
-    margin:0 auto;
-    margin-top:-70px;
+.letterpanelshow{
+    display:block;
 }
-#keyboard-graphic img{
-    width:100%;
-    height:auto;
-}
-
-#film-strip{
-    display: block;
-    width:100%;
-    text-align:center;
-    margin:0 auto;
-    margin-top: -300px;
-}
-

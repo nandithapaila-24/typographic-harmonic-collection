@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Harmonic Collection</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Your Sign</title>
+
     <link rel="stylesheet" href="./styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,31 +14,144 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
-
-
 <body>
-    <div class="project-tabs">
-        <a href="./hyperlink-project/index.html">Hyperlink Project</a>
-        <a href="./holding-position/index.html">Holding Position Project</a>
-        <a href="./digital-collage/index.html">Digital Collage Project</a>
-        <a href="./layers-project/index.html">Layers Project</a>
+    
+<div class="blank sign" id="create">
+        <h1>Make your own sign!</h1>
+        <button id="create-button">Create</button>
+        <img id = door-sign-template src = "./assets/door-sign.png" alt="blank door sign">
+</div>
+
+<div class="letterpanelshow" id="first-selection">
+        <p>Select your first letter:</p>
+        <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="first-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="first-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="first-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="first-selection" value="./assets/u-is.png" checked />
+
+            <label for="opt5"><img src="./assets/g-is.png"></label>
+            <input type="radio" id="opt5" name="first-selection" value="./assets/g-is.png" checked />
+
+            <button id="first-letter-button">next button</button>
+        </fieldset>
+
+       
     </div>
 
-    <div id="film-strip">
-        <img src="./assets/film-strip-header.png" alt text="film strip image" width="1600px" ;>
+
+    
+    <div class="letterpanelhide" id="second-selection">
+        <p>Select your second letter:</p>
+         <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="second-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="second-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="second-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="second-selection" value="./assets/u-is.png" checked />
+
+            <label for="opt5"><img src="./assets/g-is.png"></label>
+            <input type="radio" id="opt5" name="second-selection" value="./assets/g-is.png" checked />
+        </fieldset>
+        <button id="second-letter-button">next</button>
     </div>
 
-    <h1>TYPOGRAPHIC COLLECTIONS</h1>
-    <p class="secondarytext">Typography is everywhere; from the news article you read on your phone to the packaging of
-        the food you eat. Typography design can completely change the meaning of the text. Here, I explore the vast
-        world of typography design.</p>
 
-    <div id="keyboard-graphic">
-        <img src="./assets/keyboard-graphic.png" alt text="grainy designed image of a keyboard" height="2000px">
+
+     <div class="letterpanelhide" id="third-selection">
+        <p>Select your third letter:</p>
+         <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="third-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="third-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="third-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="third-selection" value="./assets/u-is.png" checked />
+
+            <label for="opt5"><img src="./assets/g-is.png"></label>
+            <input type="radio" id="opt5" name="third-selection" value="./assets/g-is.png" checked />
+        </fieldset>
+        <button id="third-letter-button">next</button>
     </div>
+
+    <div class="letterpanelhide" id="fourth-selection">
+        <p>Select your fourth letter:</p>
+         <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="fourth-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="fourth-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="fourth-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="fourth-selection" value="./assets/u-is.png" checked />
+
+             <label for="opt5"><img src="./assets/g-is.png"></label>
+            <input type="radio" id="opt5" name="fourth-selection" value="./assets/g-is.png" checked />
+        </fieldset>
+        <button id="fourth-letter-button">next</button>
+    </div>
+
+
+<div class="letterpanelhide" id="fifth-selection">
+        <p>Select your fifth letter:</p>
+         <fieldset>
+            <label for="opt1"><img src="./assets/s-is.png"></label>
+            <input type="radio" id="opt1" name="fifth-selection" value="./assets/s-is.png" checked />
+
+            <label for="opt2"><img src="./assets/h-is.png"></label>
+            <input type="radio" id="opt2" name="fifth-selection" value="./assets/h-is.png" checked />
+
+            <label for="opt3"><img src="./assets/a-is.png"></label>
+            <input type="radio" id="opt3" name="fifth-selection" value="./assets/a-is.png" checked />
+
+            <label for="opt4"><img src="./assets/u-is.png"></label>
+            <input type="radio" id="opt4" name="fifth-selection" value="./assets/u-is.png" checked />
+
+            <label for="opt5"><img src="./assets/g-is.png"></label>
+            <input type="radio" id="opt5" name="fifth-selection" value="./assets/g-is.png" checked />
+        </fieldset>
+        <button id="fifth-letter-button">next</button>
+    </div>
+
+
+
+     <div class="letter panel hide" id="decorated-sign">
+        <div id="sign-collage">
+            <img id="ul">
+            <img id="sl">
+            <img id="hl">
+            <img id="al">
+            <img id="gl">
+        </div>
+        <button id="back-button">start over</button>
+    </div>
+
+
+
     <script src="./main.js"></script>
 </body>
-
-
 </html>
