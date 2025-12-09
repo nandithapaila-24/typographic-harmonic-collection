@@ -1,0 +1,51 @@
+.projgallery2{
+    text-align:center;
+    display:flex;
+}
+
+body{
+    background-color: #B4E61E;
+}
+
+h1{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    margin-bottom:40px;
+    color:#40180B;
+    font-size:80px;
+    width:100%;
+}
+
+h1 {
+  overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-align:center;
+    color:#000000;
+    font-size:80px;
+    margin:80px;
+    width:100%;
+    text-align:center;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
+#secondary-text{
+     font-family: "Roboto Slab", serif;
+     font-size:15pt;
+}
