@@ -1,0 +1,110 @@
+img{
+    width:500px;
+    order:1;
+}
+
+.imagecontainer{
+    text-align: center;
+    border: 2px solid #40180B;
+    background-color:#40180B;
+    padding-top:100px;
+}
+
+body{
+    background-color:#B4E61E;
+}
+
+.whitebox{
+    background-color:white;
+    width:500px;
+    height:200px;
+    position:absolute;
+    top:573px;
+    left:758px;
+    order:2;
+}
+
+nav{
+    background-color:#000000;
+    font-family: "Roboto Slab", serif;
+    color:white;
+    padding:10px;
+    width:25%;
+    position:fixed;
+    z-index:9;
+    top:0;
+    right:0;
+    margin-right:0;
+}
+
+nav a{
+    margin-right:25px;
+    color:white;
+    text-decoration:none;
+    font-family: "Roboto Slab", serif;
+}
+
+h1{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 60px;
+    text-decoration:bold;
+    color:#40180B;
+    margin-top:20px;
+}
+
+.projgallery{
+    text-align:center;
+}
+
+#header-2{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 60px;
+    text-decoration:bold;
+    color:#40180B;
+    margin-top:20px;
+}
+
+#nav-bar-2{
+    background-color:#000000;
+    font-family: "Roboto Slab", serif;
+    color:white;
+    padding:10px;
+    width:25%;
+    position:fixed;
+    z-index:9;
+    top:0;
+    right:0;
+    margin-right:0;
+}
+
+h1 {
+   font-family: "BBH Sans Hegarty", sans-serif;
+    text-decoration:bold;
+    color:#40180B;
+    margin-top:20px;
+    overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+    text-align:center;
+    font-size:80px;
+    margin:80px;
+    width:100%;
+    text-align:center;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
