@@ -1,0 +1,125 @@
+body {
+    background-color: #FFEDD6;
+    background-image: url('notebookpaper.jpg');
+    background-size: cover;
+}
+
+.kerningline{
+    float:bottom;
+    margin-left:50px;
+    margin-top:-400px;
+}
+
+p{
+    font-size:120px;
+    color:#9E0A1B;
+    font-family:fantasy;
+}
+
+a, a:visited{
+    color:#9E0A1B
+}
+
+.kern-a{
+    letter-spacing: 0.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.second{
+    color:blue;
+    background: white;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+
+a:hover{
+    color:black;
+}
+
+.crafts{
+    margin: 260px;
+    margin-left: 1000px;;
+}
+
+.beauty{
+    margin: 385px;
+    margin-left: 1000px;
+}
+
+.topleftthe{
+    color:black;
+    margin:-55px;
+    margin-left:300px;
+}
+
+.poetry{
+    margin:-400px;
+    margin-left:1000px;
+}
+
+.poetrycolor{
+    color:black;
+    text-decoration:bold;
+}
+
+.leftof{
+    color:black;
+    margin:400px;
+    margin-right:400px;
+}
+
+.white{
+    color:black;
+    margin:-900px;
+    margin-left:1000px;
+}
+
+.space{
+    color:black;
+    margin: 675px;
+    text-align:center;
+}
+
+.ink{
+    margin-left:400px;
+    margin-top:200px;
+    color:black;
+}
+
+.penimg{
+    float:right;
+    width:900px;
+    margin-top:-600px;
+}
+
+.and{
+    text-align:center;
+    margin-top:200px;
+}
+
+.paper{
+    margin-left:900px;
+    margin-top:200px;
+}
+
+.paperimg{
+    float:right;
+    margin-right:150px;
+    margin-top:-650px;
+}
+
+.play{
+    margin-left:1000px;
+    margin-top:500px;
+}
+
+.black-cursive{
+    color:black;
+}
