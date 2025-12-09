@@ -1,0 +1,72 @@
+#notosans{
+    font-family: "Noto Sans", sans-serif;
+    font-size:150px;
+    text-align:center;
+    margin-top:20px;
+}
+
+
+
+#zalando{
+    font-family: "Zalando Sans", sans-serif;
+    font-size:40px;
+    text-align:center;
+    margin-top:10px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.questions{
+    font-size:18px;
+    margin-top:25px;
+    text-align:center;
+    color:#40180B;
+    margin-top:140px;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.question-2{
+    font-size:18px;
+    margin-top:30px;
+    text-align:center;
+    color:#40180B;
+    font-family: "Roboto Slab", serif;
+
+}
+
+
+
+
+ .desktop{
+        display: inline;
+    }
+
+    .mobile{
+        display:none;
+    }
+
+@media (max-width:760px){
+
+
+    .mobile{
+        display: inline;
+    }
+
+    .desktop{
+        display:none;
+    }
+
+#pinyontitle{
+    font-family: "Pinyon Script", cursive;
+    font-size: 80px;
+    text-align: left;
+}
+    
+}
+
+#pinyonbody{
+    font-family: "Pinyon Script", cursive;
+    font-size:30px;
+    text-align:left;
+}
