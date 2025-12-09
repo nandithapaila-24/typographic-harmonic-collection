@@ -1,31 +1,72 @@
-#typewriter h1{
-overflow:hidden;
-border-right: 0.7em solid rgb(222, 35, 172);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.50em;
-    animation: 
-    typing 3s steps(30, end),
-    blink-caret .75s step-end infinite;
+#notosans{
+    font-family: "Noto Sans", sans-serif;
+    font-size:150px;
+    text-align:center;
+    margin-top:20px;
 }
 
-#typewriter2 h1{
-    overflow:hidden;
-    border-right: 0.7em solid rgb(250, 40, 142);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.50em;
-    animation: 
-    typing 3s steps(30, end),
-    blink-caret .75s step-end infinite;
+
+
+#zalando{
+    font-family: "Zalando Sans", sans-serif;
+    font-size:40px;
+    text-align:center;
+    margin-top:10px;
+    padding-left:50px;
+    padding-right:50px;
 }
 
-@keyframes typing {
-    from {width:0}
-    to {width:100%}
+.questions{
+    font-size:18px;
+    margin-top:25px;
+    text-align:center;
+    color:#40180B;
+    margin-top:140px;
+    font-family: "Roboto Slab", serif;
+
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+.question-2{
+    font-size:18px;
+    margin-top:30px;
+    text-align:center;
+    color:#40180B;
+    font-family: "Roboto Slab", serif;
+
+}
+
+
+
+
+ .desktop{
+        display: inline;
+    }
+
+    .mobile{
+        display:none;
+    }
+
+@media (max-width:760px){
+
+
+    .mobile{
+        display: inline;
+    }
+
+    .desktop{
+        display:none;
+    }
+
+#pinyontitle{
+    font-family: "Pinyon Script", cursive;
+    font-size: 80px;
+    text-align: left;
+}
+    
+}
+
+#pinyonbody{
+    font-family: "Pinyon Script", cursive;
+    font-size:30px;
+    text-align:left;
 }
