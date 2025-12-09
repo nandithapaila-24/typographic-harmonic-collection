@@ -1,31 +1,120 @@
-#typewriter h1{
-overflow:hidden;
-border-right: 0.7em solid rgb(222, 35, 172);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.50em;
-    animation: 
-    typing 3s steps(30, end),
+body{
+    background-color:#46caf2;
+    font-family: "Roboto Slab", serif;
+}
+
+/*This is my code for Project 7: Toggle. From here:*/
+
+body.dark-mode{
+    background-color:#40180B;
+    color:#46caf2;
+}
+body.dark-mode #film-strip img{
+    filter: invert(1);
+}
+
+
+h1.dark-mode{
+    color:#B4E61E;
+}
+
+/*To here*/
+
+/*h1{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-align:center;
+    color:#000000;
+    font-size:80px;
+    width:100%;
+}*/
+
+.secondarytext{
+    font-size: 18px;
+    text-align:center;
+    /*border:3px solid #ffffff;
+    padding:10px;
+    */
+    width:80%;
+    margin:0 auto;
+    margin-top:-40px;
+    color:#ffffff;
+
+}
+
+.project-tabs{
+    display: flex;
+    gap:120px;
+    justify-content: center;
+    margin-top: 40px;
+    position:relative;
+    top:15px;
+    font-size:12px;
+}
+
+a:link, a:visited{
+    font-size: 16px;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+#keyboard-graphic{
+    display: block;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:-70px;
+}
+#keyboard-graphic img{
+    width:100%;
+    height:auto;
+}
+
+#film-strip{
+    display: block;
+    width:90%;
+    text-align:center;
+    margin:0 auto;
+    margin-top: -300px;
+    margin-bottom:60px;
+}
+
+h1 {
+  overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-align:center;
+    color:#000000;
+    font-size:80px;
+    margin:80px;
+    width:100%;
+    text-align:center;
+  animation: 
+    typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
-#typewriter2 h1{
-    overflow:hidden;
-    border-right: 0.7em solid rgb(250, 40, 142);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.50em;
-    animation: 
-    typing 3s steps(30, end),
-    blink-caret .75s step-end infinite;
-}
 
 @keyframes typing {
-    from {width:0}
-    to {width:100%}
+  from { width: 0 }
+  to { width: 100% }
 }
+
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: rgb(255, 255, 255); }
 }
+
+/*@media (max-width:760px){
+
+
+    .mobile{
+        display: inline;
+    }
+
+    .desktop{
+        display:none;
+    }*/
