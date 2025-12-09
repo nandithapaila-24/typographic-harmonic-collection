@@ -1,31 +1,68 @@
-#typewriter h1{
-overflow:hidden;
-border-right: 0.7em solid rgb(222, 35, 172);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.50em;
-    animation: 
-    typing 3s steps(30, end),
-    blink-caret .75s step-end infinite;
+.gasoek{
+    font-family: "Gasoek One", sans-serif;
+    text-align:center;
+    font-size:80px;
+    color:#46CAF2;
+    margin-top:-90px;
+    letter-spacing:50px;
 }
 
-#typewriter2 h1{
-    overflow:hidden;
-    border-right: 0.7em solid rgb(250, 40, 142);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.50em;
-    animation: 
-    typing 3s steps(30, end),
-    blink-caret .75s step-end infinite;
+.gelasio{
+    font-family:Gelasio;
+    text-align:left;
+    font-size:30px;
+    color:#40180B;
+    width:25vw;
+    margin-left:4vw;
+    margin-top:-100px;
+    font-style:italic;
 }
 
-@keyframes typing {
-    from {width:0}
-    to {width:100%}
+#bodytext{
+    text-align:right;
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    color:#4C4C4C;
+    margin-right:20px;
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+body{
+    background-color:#F6EBD2;
+}
+
+.circleorange{ /*this code to make circles comes from w3schools*/
+    width:800px;
+    height:800px;
+    background-color:#B4E61E;
+    border-radius:50%;
+    margin-left:800px;
+    margin-top:-900px;
+    opacity:25%;
+    position:relative;
+    z-index:-1;
+}
+
+.circleblue{
+    width:400px;
+    height:400px;
+    background-color:#46CAF2;
+    border-radius:50%;
+    margin-top:-130px;
+    margin-right:-900px;
+    opacity:25%;
+    position:relative;
+    z-index:-1;
+}
+
+.smallcircleorange{
+    width:300px;
+    height:300px;
+    background-color:#40180B;
+    border-radius:50%;
+    margin-top:-900px;
+    margin-left:600px;
+    opacity:25%;
+    position:relative;
+    z-index:-1;
+    text-align:center;
 }
