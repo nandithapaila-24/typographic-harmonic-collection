@@ -1,3 +1,8 @@
+
+body{
+    background-color:#46caf2;
+}
+
 p{
     font-family: "Roboto Slab", serif;
     font-size:30px;
@@ -5,9 +10,101 @@ p{
 
 img{
     width:150px;
+    height:15vh;
+}
+
+#door-sign-template{
+    width:200px;
+    height:auto;
+    margin-left:320px;
 }
 
 h1{
     font-family: "BBH Sans Hegarty", sans-serif;
     font-size:60px;
+    text-align:center;
+}
+
+#door-sign-template{
+    width:800px;
+    text-align: center;
+}
+
+.letterpanelhide{
+    display:none;
+}
+
+
+.letterpanelshow{
+    display:block;
+}
+
+#home-key{
+    width:60px;
+    height:auto;
+}
+
+#first-letter-button{
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    margin-top:20px;
+    background-color: #40180B;
+    color:azure;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+}
+
+#second-letter-button{
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    margin-top:20px;
+    background-color: #40180B;
+    color:azure;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+}
+
+#third-letter-button{
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    margin-top:20px;
+    background-color: #40180B;
+    color:azure;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+}
+
+#fourth-letter-button{
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    margin-top:20px;
+    background-color: #40180B;
+    color:azure;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+}
+
+#fifth-letter-button{
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    margin-top:20px;
+    background-color: #40180B;
+    color:azure;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+}
+
+#back-button{
+    font-family: "Roboto Slab", serif;
+    font-size:20px;
+    background-color:#B4E61E;
+    color:black;
+    border-radius: 12px;
+    padding: 10px;
+    border: black 2px solid;
 }
