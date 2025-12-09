@@ -1,110 +1,31 @@
-
-body{
-    background-color:#46caf2;
+#typewriter h1{
+overflow:hidden;
+border-right: 0.7em solid rgb(222, 35, 172);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.50em;
+    animation: 
+    typing 3s steps(30, end),
+    blink-caret .75s step-end infinite;
 }
 
-p{
-    font-family: "Roboto Slab", serif;
-    font-size:30px;
+#typewriter2 h1{
+    overflow:hidden;
+    border-right: 0.7em solid rgb(250, 40, 142);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.50em;
+    animation: 
+    typing 3s steps(30, end),
+    blink-caret .75s step-end infinite;
 }
 
-img{
-    width:150px;
-    height:15vh;
+@keyframes typing {
+    from {width:0}
+    to {width:100%}
 }
 
-#door-sign-template{
-    width:200px;
-    height:auto;
-    margin-left:320px;
-}
-
-h1{
-    font-family: "BBH Sans Hegarty", sans-serif;
-    font-size:60px;
-    text-align:center;
-}
-
-#door-sign-template{
-    width:800px;
-    text-align: center;
-}
-
-.letterpanelhide{
-    display:none;
-}
-
-
-.letterpanelshow{
-    display:block;
-}
-
-#home-key{
-    width:60px;
-    height:auto;
-}
-
-#first-letter-button{
-    font-family: "Roboto Slab", serif;
-    font-size:20px;
-    margin-top:20px;
-    background-color: #40180B;
-    color:azure;
-    border-radius: 12px;
-    padding: 10px;
-    border: none;
-}
-
-#second-letter-button{
-    font-family: "Roboto Slab", serif;
-    font-size:20px;
-    margin-top:20px;
-    background-color: #40180B;
-    color:azure;
-    border-radius: 12px;
-    padding: 10px;
-    border: none;
-}
-
-#third-letter-button{
-    font-family: "Roboto Slab", serif;
-    font-size:20px;
-    margin-top:20px;
-    background-color: #40180B;
-    color:azure;
-    border-radius: 12px;
-    padding: 10px;
-    border: none;
-}
-
-#fourth-letter-button{
-    font-family: "Roboto Slab", serif;
-    font-size:20px;
-    margin-top:20px;
-    background-color: #40180B;
-    color:azure;
-    border-radius: 12px;
-    padding: 10px;
-    border: none;
-}
-
-#fifth-letter-button{
-    font-family: "Roboto Slab", serif;
-    font-size:20px;
-    margin-top:20px;
-    background-color: #40180B;
-    color:azure;
-    border-radius: 12px;
-    padding: 10px;
-    border: none;
-}
-
-#back-button{
-    font-family: "Roboto Slab", serif;
-    font-size:20px;
-    background-color:#B4E61E;
-    color:black;
-    border-radius: 12px;
-    padding: 10px;
-    border: black 2px solid;
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
