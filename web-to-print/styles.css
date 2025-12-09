@@ -1,0 +1,85 @@
+body.switch-mode{
+    background-color: #46CAF2;
+    color: #000000;
+}
+
+body.green-switch-mode{
+    background-color: #B4E61E;
+    color: #40180B;
+}
+img{
+    width:30vw;
+    align-content:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#title{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-align:center;
+}
+
+#tagline{
+    font-family: "Roboto Slab", serif;
+    text-align:center;
+    margin-top:-20px;
+    margin-bottom:20px;
+}
+
+.Gasoek-One {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#instructions{
+    font-family: "Roboto Slab", serif;
+}
+
+@media print{
+    #settings{
+        display: none;
+    }
+
+    #instructions{
+        display: none;
+    }
+
+    #poster{
+         print-color-adjust: exact;
+    }
+
+    #home-key{
+        display: none;
+    }
+   
+}
+
+#mobile{
+    display:none;
+
+}
+#cellphone{
+    display:none;
+}
+
+@media (max-width:760px) {
+#mobile{
+        display: inline;
+    }
+
+#desktop{
+        display:none;
+    }
+
+#laptop{
+        display: none;
+}
+
+#cellphone{
+    display:inline;
+}
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Web-To-Print</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+<div id="poster">
+
+    <div id="settings">
+
+        <button id="pink-mode">Blue Color Select</button>
+        <button id="green-mode">Green Color Select</button>
+        <button id="download">Print!</button>
+        <input id="name-text" type="text"/>
+        <input id="tagline-text" type="text"/>
+        <input id="color" type="color" />
+
+            
+        <select class="dropdown" id="desktop">
+            <option value="./assets/web-laptop-graphic.png">Computer Poster</option>
+        </select>
+        
+        <select class="dropdown" id="mobile">
+            <option value="./assets/phone-graphic.png">Phone Poster</option>
+        </select>
+           
+        
+    </div>
+
+
+    <!-- <label for="font">Name Title Font</label>
+    <select id="font-mode">
+        <option value="BBH Sans Hegarty">Select a Font</option>
+        <option value="BBH Sans Hegarty">BBH Sans Hegarty</option>
+        <option class="Gasoek-One">Gasoek One</option>
+    </select> -->
+
+    <h1 id="title">Your Name Here</h1>
+     <p id="tagline">Your tagline Here</p>
+
+
+    <img id="cellphone" src="./assets/phone-graphic.png" alt="Phone Poster Graphic">
+    <img id="laptop" src="./assets/web-laptop-graphic.png" alt="Laptop Poster Graphic">
+
+    <p id="instructions">Create your own name and tagline poster!</p>
+
+    <a id="home-key" href="../index.html"><img src="../assets/home-key.png" alt="homekey" style="width:60px"> </a>
+</div>
+
+    
+    <script src="./main.js"></script>
+</body>
+
+</html>
